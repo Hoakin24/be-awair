@@ -68,20 +68,6 @@ You need an API key from **OpenWeather** to fetch air quality data.
 
 ---
 
-## 📂 Project Structure
-
-```
-/components
-  └── location-search-bar/       // Reusable location search input
-/screens
-  ├── Map.tsx                    // Map view with marker and modal
-  └── Details.tsx                // AQI breakdown list
-/utils
-  └── api.ts                     // Air quality + search API functions
-```
-
----
-
 ## 📌 Notes
 
 * Location search supports multiple results and fallback cities.

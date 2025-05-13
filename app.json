@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Be Awair",
+    "slug": "be-awair",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/be-awair-logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/be-awair-splash-icon.png",
+      "resizeMode": "contain",  
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hoakin.beawair",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/be-awair-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d81ca170-6a7f-421f-a4d9-47043ac31143"
+      }
+    }
+  }
+}
